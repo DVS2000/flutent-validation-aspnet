@@ -9,8 +9,6 @@ namespace ApiValidation
         {
             var expression = "[0-9]{3}\\.?[0-9]{3}\\.?[0-9]{3}\\-?[0-9]{2}";
 
-            // Dorivaldo dos Santos
-
             return Regex.Match(document, expression).Success;
         }
     }
